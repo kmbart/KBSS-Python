@@ -1,4 +1,4 @@
-#StatCompare: Compare category totals for each team between Rotowire and KS.
+#! StatCompare: Compare category totals for each team between Rotowire and KS.
 #  Read in KS standings and pull out category totals for each team, then store them in the KS dictionary.
 #  Read in Rotowire standings and pull out category totals for each team, then store them in the RW dictionary.
 #  Compare the RW category entries with the equivalent KS entries; if they differ, put them on a new list.
