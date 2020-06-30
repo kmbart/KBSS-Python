@@ -1,3 +1,5 @@
+#  StatReq - doesn't work because of access restrictions on RotoWire
+
 import requests
 
 #This URL will be the URL that your login form points to with the "action" tag.
@@ -26,3 +28,4 @@ if res.status_code == requests.codes.ok:
         print('Text more than 25,000 characters')
 else:
     print('Invalid response from requests')
+
